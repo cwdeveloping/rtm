@@ -164,6 +164,12 @@ export default {
   font-size: 0.95rem;
   border: 2px solid;
   margin-top: 15px;
+  transition: all .3s;
+}
+
+.card__badge:hover {
+  background: #089124;
+  color: white;
 }
 
 .price {
